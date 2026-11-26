@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Curlytail: Privacy Policy</title>
+<style>
+  body { margin: 0; background: #0e0f11; color: #e8e8e8; font: 16px/1.5 system-ui, sans-serif; }
+  main { max-width: 640px; margin: 0 auto; padding: 48px 20px; }
+  h1 { color: #3ddc84; font-size: 28px; margin: 0 0 8px; }
+  h2 { color: #3ddc84; font-size: 19px; margin: 36px 0 8px; }
+  h3 { font-size: 16px; margin: 22px 0 4px; }
+  p { margin: 12px 0; }
+  ul { margin: 8px 0; padding-left: 22px; }
+  li { margin: 6px 0; }
+  a { color: #3ddc84; }
+  small { color: #9a9a9a; }
+  .box { background: #17191c; border-radius: 12px; padding: 4px 16px; margin: 16px 0; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Curlytail: Privacy Policy</h1>
+  <p><small>Date of this policy: 2026-11-26</small></p>
+
+  <p>This is the privacy policy of the Android app Curlytail. An earlier name of the app was Gecko TV.
+  Curlytail shows Twitch chat. This policy applies to the version of the app on Google Play.</p>
+
+  <div class="box">
+    <p><strong>Summary</strong></p>
+    <ul>
+      <li>The developer has no server. The developer receives no data from the app.</li>
+      <li>The app has no ads, no ads software, no analytics and no crash reporter.</li>
+      <li>The app sends data directly from your phone to Twitch and to a small number of other services. This policy names each one.</li>
+      <li>Login with Twitch is optional.</li>
+      <li>The app has one permission: internet access.</li>
+    </ul>
+  </div>
+
+  <h2>1. Who is responsible</h2>
+  <p>The developer of Curlytail (GitHub: gecko-of-shadow) makes the app. The developer is one person.
+  The contact is in section 11.</p>
+
+  <h2>2. What the developer receives</h2>
+  <p>Nothing. The developer runs no server for the app. The app does not send your name, your messages,
+  your pictures, your settings or usage data to the developer. The app contains no software for ads,
+  analytics or crash reports. The developer does not sell data and does not have data to sell.</p>
+
+  <h2>3. What stays on your phone</h2>
+  <p>The app keeps this data in its private storage on your phone:</p>
+  <ul>
+    <li><strong>The login token.</strong> Only if you log in. The app encrypts the token with a key in the Android Keystore. The token is not part of an Android backup or a transfer to a new phone.</li>
+    <li><strong>Your settings.</strong> For example the theme, the text size, the picture host you chose and your answer to its notice.</li>
+    <li><strong>Your chats.</strong> The chat that was open last, and your list of favourite channels.</li>
+    <li><strong>Emote and badge lists.</strong> The lists of the channels that you opened, and the emotes that you used recently.</li>
+    <li><strong>A picture cache.</strong> Emote and badge pictures, so that they load faster.</li>
+    <li><strong>A copy of a picture that you upload.</strong> The app makes a cleaned copy before the upload. The copy is in the cache of the app.</li>
+    <li><strong>Your block list,</strong> in a version of the app that has one.</li>
+  </ul>
+  <p>The app does not keep a record of the chat messages that you read. The app has cloud backup turned off.
+  If you move to a new phone with the Android transfer tool, Android can copy the settings and the lists.
+  Android does not copy the login token.</p>
+
+  <h3>How to delete this data</h3>
+  <ul>
+    <li><strong>Log out</strong> (Settings in the app). This removes the login token from the phone. The app also asks Twitch to cancel the token. To be sure, also do the step in section 8. The other data stays.</li>
+    <li><strong>Clear the app data</strong> (Android Settings, Apps, Curlytail, Storage, Clear storage). This removes all data of the app from the phone.</li>
+    <li><strong>Uninstall the app.</strong> This also removes all data of the app from the phone.</li>
+  </ul>
+
+  <h2>4. Services that the app talks to</h2>
+  <p>The app connects directly from your phone to the services below. Each service always sees your IP address,
+  as with each internet connection. All connections use encryption (HTTPS or secure WebSocket).
+  Each service handles the data by its own policy. The developer does not control these services.</p>
+
+  <h3>Twitch</h3>
+  <ul>
+    <li><strong>Chat.</strong> When you open a chat, the app connects to the Twitch chat server and sends the channel name. If you are logged in, the app also sends your login token and your Twitch name. If you are not logged in, the connection is anonymous and read-only.</li>
+    <li><strong>Messages that you send are public on Twitch.</strong> Twitch, the people in that chat and other services that read Twitch chat can see and keep them. The app cannot take a sent message back.</li>
+    <li><strong>Login.</strong> If you log in, the app gets a code from Twitch. You enter the code on twitch.tv/activate in your browser. You give your Twitch password only to Twitch in the browser. The app never sees your password. Twitch then gives the app a login token.</li>
+    <li><strong>Twitch API.</strong> With the token, the app asks Twitch for your account name and id and for the channels that you follow. If you are a moderator and use the moderator tools, the app sends those actions to Twitch (for example a timeout, a ban or a deleted message) and receives moderator events.</li>
+    <li><strong>Pictures.</strong> The app loads Twitch emotes, badges and channel pictures from Twitch picture servers.</li>
+  </ul>
+  <p>Policy: <a href="https://legal.twitch.com/legal/privacy-notice/">Twitch Privacy Notice</a>.</p>
+
+  <h3>7TV, BetterTTV and FrankerFaceZ (emotes)</h3>
+  <p>When you open a chat, the app asks each of these three services for the emotes of that channel.
+  The app sends the Twitch id number of the channel. The app does not send your name or your login token.
+  The app then loads the emote pictures from the picture servers of these services.
+  This is the same if you are logged in or not.</p>
+  <p>Policies:
+    <a href="https://7tv.app/privacy">7TV</a>,
+    <a href="https://betterttv.com/privacy">BetterTTV</a>,
+    <a href="https://www.frankerfacez.com/privacy">FrankerFaceZ</a>.</p>
+
+  <h3>Chat history service (recent-messages.robotty.de)</h3>
+  <p>When you open a chat, the app can get the last messages of that chat from this service.
+  Twitch does not run this service. The app sends the channel name. The app does not send your name or your login token.
+  This is on when you install the app. To turn it off: Settings, "Load recent chat messages".
+  When it is off, the chat starts empty and the app does not contact this service.</p>
+  <p>Information and policy: <a href="https://recent-messages.robotty.de/">recent-messages.robotty.de</a>.</p>
+
+  <h3>Picture hosts (only when you upload a picture)</h3>
+  <p>You can upload a picture to put a link to it in chat. The app contacts a picture host only when you do this.
+  You choose the host in Settings: uguu.se, litterbox.catbox.moe or tmpfiles.org.</p>
+  <ul>
+    <li>Before the upload, the app removes the metadata of the picture, for example the location, the camera data and comments. The colour profile stays. If the app cannot remove the metadata, it does not upload the picture.</li>
+    <li>The host receives the cleaned picture, your IP address and a header that names the app. The app gives the picture a random file name. The app does not send your Twitch name or your login token.</li>
+    <li>The host keeps the picture for a limited time: uguu.se 3 hours, tmpfiles.org 24 hours, litterbox 1 to 72 hours (you choose; the default is 12 hours). The hosts say that they store your IP address with the upload.</li>
+    <li>The app cannot delete a picture from a host.</li>
+    <li>Anyone who has the link can see the picture. When you send the link in chat, the link is public.</li>
+  </ul>
+  <p>Policies and rules:
+    <a href="https://uguu.se/faq">uguu.se</a>,
+    <a href="https://litterbox.catbox.moe/faq.php">litterbox</a> (<a href="https://catbox.moe/legal.php">Catbox legal page</a>),
+    <a href="https://tmpfiles.org/tos">tmpfiles.org</a>.</p>
+
+  <h3>Your browser</h3>
+  <p>The app opens some pages in the browser of your phone: the Twitch login page, Twitch pages such as the
+  report page of a user, and each link that you tap in chat. The browser and the site that you open get data
+  by their own policies. A link in chat can go to any site.</p>
+
+  <h3>Twitch video player (a later version)</h3>
+  <p>The app has no video now. A later version will show streams in the official Twitch video player inside the app.
+  The player is a Twitch web page. Twitch will then receive the data that its player sends, and the player can store
+  Twitch cookies in the app. Ads of Twitch can play in that player. The developer will change this policy when that version is released.</p>
+
+  <h2>5. Login is optional</h2>
+  <p>You can read chat without a login. You need a Twitch login only to send messages, to see the channels that
+  you follow and to use the moderator tools. The app makes no account of its own. Your account is a Twitch account.</p>
+
+  <h2>6. Permissions</h2>
+  <p>The app asks for one Android permission: internet access. The app does not ask for location, contacts,
+  camera, microphone, notifications or storage. To pick a picture, the app uses the Android photo picker.
+  The app gets only the picture that you pick.</p>
+
+  <h2>7. Children</h2>
+  <p>The app is not for children under 13. The app shows Twitch chat, and the
+  <a href="https://legal.twitch.com/legal/terms-of-service/">Twitch Terms of Service</a> do not allow persons under 13
+  to use Twitch. Twitch sets a higher age in some countries. You must obey the Twitch age rule to use the app.
+  The developer receives no data from any user, and thus no data from children.</p>
+
+  <h2>8. How to remove the access of the app to your Twitch account</h2>
+  <p>Open <a href="https://www.twitch.tv/settings/connections">twitch.tv/settings/connections</a> in a browser.
+  Find Curlytail in the list of connected apps and disconnect it. The list can show the earlier name, Gecko TV.
+  After this, the login token of the app does not work. You can do this at any time, also after you uninstall the app.</p>
+
+  <h2>9. Data deletion requests</h2>
+  <p>The developer holds no data about you. Thus there is nothing that the developer can delete, correct or send to you.</p>
+  <ul>
+    <li>To delete the data on your phone, see section 3.</li>
+    <li>To delete data that Twitch or another service holds, ask that service. Section 4 has the links.</li>
+  </ul>
+  <p>If you have a question about this, use the contact in section 11.</p>
+
+  <h2>10. Changes to this policy</h2>
+  <p>If the app changes in a way that changes this policy, the developer will change this page and its date.
+  The current policy is always at this address: https://gecko-of-shadow.github.io/privacy.html</p>
+
+  <h2>11. Contact</h2>
+  <p>For questions about this policy, write to: CONTACT-EMAIL-TO-BE-SET</p>
+
+  <p><small>Curlytail is not affiliated with, sponsored by or endorsed by Twitch Interactive, Inc.
+  It is also not affiliated with 7TV, BetterTTV, FrankerFaceZ, recent-messages.robotty.de, uguu.se, Catbox or tmpfiles.org.</small></p>
+  <p><small><a href="index.html">Home page</a></small></p>
+</main>
+</body>
+</html>
